@@ -21,7 +21,7 @@ services:
       - LOG_COLOR=true
 
       - DATABASE_ENABLED=true
-      - DATABASE_URL=postgres://postgres:12345678@kows0s4:5432/postgres
+      - DATABASE_URL=postgres://postgres:12345678@kows0s4:5432/postgres?schema=public
       - DATABASE_SYNC_MESSAGES=true
       - DATABASE_SAVE_DATA_NEW_MESSAGE=true
       - DATABASE_SAVE_MESSAGE_UPDATE=true
